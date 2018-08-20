@@ -1,0 +1,81 @@
+.sub-title {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 24px;
+	margin-top: 10px;
+	text-align: left;
+}
+
+.title {
+	font-family: Raleway;
+	font-size: 24px;
+	font-weight: 900;
+	line-height: 40px;
+	text-align: left;
+	text-transform: initial;
+    width: 200px;
+}
+
+.divider {
+	background-color: #252a35;
+	height: 2px;
+	width: 35px;
+}
+
+
+.image {
+	display: block;
+	height: auto;
+	width: 100%;
+    border-radius: 20px;
+}
+
+.overlay {
+	background-color: rgba(179, 221, 237);
+	bottom: 0;
+	height: 100%;
+	left: 0;
+	opacity: 0;
+	position: absolute;
+	right: 0;
+	transition: .5s ease;
+	top: 0;
+	width: 100%;
+    padding: 10px;
+    background-clip: content-box;
+    border-radius: 30px;
+}
+.cell-container {
+    padding: 10px;
+
+}
+.cell-container:hover .overlay {
+	opacity: 0.8;
+}
+
+.text {
+	color: #252a35;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	text-transform: uppercase;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+}
+
+.btn-outline-primary,
+.btn-outline-primary:active,
+.btn-outline-primary:visited
+.btn-outline-primary:focus {
+    color: #252a35;
+    border-color: #252a35;
+    font-family: DINPro-Regular;
+}
+
+.btn-outline-primary:hover {
+    font-family: DINPro-Regular;
+    color: #ffffff;
+    border-color: #c5257a;
+    background-color: #c5257a;
+}
