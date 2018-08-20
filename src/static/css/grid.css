@@ -71,9 +71,27 @@
     color: #252a35;
     border-color: #252a35;
     font-family: DINPro-Regular;
+	box-shadow: none;
 }
 
 .btn-outline-primary:hover {
+    font-family: DINPro-Regular;
+    color: #ffffff;
+    border-color: #c5257a;
+    background-color: #c5257a;
+}
+
+.btn-outline-primary.white,
+.btn-outline-primary.white:active,
+.btn-outline-primary.white:visited
+.btn-outline-primary.white:focus {
+    color: #f2fafd;
+    border-color: #f2fafd;
+    font-family: DINPro-Regular;
+	box-shadow: none;
+}
+
+.btn-outline-primary.white:hover {
     font-family: DINPro-Regular;
     color: #ffffff;
     border-color: #c5257a;

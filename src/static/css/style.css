@@ -264,7 +264,7 @@ div.skill-bar-wrapper {
     align-items: center;
     justify-content: center;
     height: 50%;
-    width: 90%;
+    width: 130%;
 }
 
 .skillbar {
@@ -392,37 +392,35 @@ input, textarea {
     100% { transform: translateY(30px); }
 }
 
-.modal.fade .modal-dialog {
-    -webkit-transform: scale(0.1);
-    -moz-transform: scale(0.1);
-    -ms-transform: scale(0.1);
-    transform: scale(0.1);
-    top: 300px;
-    opacity: 0;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
+.project_modal {
+    background-color: rgba(197,37,122, 0.3);
+    color: white;
+}
+.card {
+    background-color: #252a35;
+    background-clip: border-box;
+    border: none;
+    border-radius: 20px;
 }
 
-.modal.fade.in .modal-dialog {
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
-    -webkit-transform: translate3d(0, -300px, 0);
-    transform: translate3d(0, -300px, 0);
-    opacity: 1;
+.modal-dialog {
+    pointer-events: inherit
 }
-
 @media (min-width: 576px) {
     .container {
         max-width: 776px;
+    }
+    .modal-dialog {
+        max-width: 500px;
     }
 }
 
 @media (min-width: 768px) {
     .container {
         max-width: 968px;
+    }
+    .modal-dialog {
+        max-width: 700px;
     }
 }
 
@@ -431,11 +429,17 @@ input, textarea {
     .container {
         max-width: 1192px;
     }
+    .modal-dialog {
+        max-width: 900px;
+    }
 }
 
 @media (min-width: 1200px){
     .container {
         max-width: 1400px;
+    }
+    .modal-dialog {
+        max-width: 1000px;
     }
 }
 

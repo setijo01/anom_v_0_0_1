@@ -1,16 +1,87 @@
-<div class="modal fade" id="demo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-        <h1 class="modal-title">Demo Modal</h1>
-      </div>
-      <div class="modal-body">
-        Pretty Nifty eh?
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
+<div class="modal fade project_modal" id="pangestoe_modal" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="card">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src={{ url_for('static', filename='img/pangestoe_modal.png') }}>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src={{ url_for('static', filename='img/pangestoe_modal_1.png') }}>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src={{ url_for('static', filename='img/pangestoe_modal_2.png') }}>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+    <div class="card-body" style="font-family: Raleway">
+    <p class="card-text">Pangestoe Web is an undergoing web portfolio project designed for a client, built utilizing Flask as its primary framework and mongoDB as its database management platform. I make use of Bootstrap materials for the front end visuals.</p>
+    <a href="http://pangestoebespoke.com" class="btn btn-outline-primary white">Visit Website</a>
+    </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade project_modal" id="spapp_modal" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="card">
+    <div id="carouselExampleControls1" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src={{ url_for('static', filename='img/spapp_modal.png') }}>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src={{ url_for('static', filename='img/spapp_modal_1.png') }}>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls1" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls1" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+    <div class="card-body" style="font-family: Raleway">
+    <p class="card-text">spapp is a web-base application project made to streamline the grading and management process for speech classes. The app was developed under a team of senior college students, including myself with UI designer/Front-End Developer as my primary role, for their graduation project. The app was developed utilizing Flask, PostgreSQL, HTML5, Bootstrap, and JS. </p>>
+    </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade project_modal" id="gif_modal" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="card">
+    <div id="carouselExampleControls2" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src={{ url_for('static', filename='img/giforecast.png') }}>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src={{ url_for('static', filename='img/giforecast_modal.png') }}>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls2" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls2" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+    <div class="card-body" style="font-family: Raleway">
+    <p class="card-text">GIForecast was a project I built for a course. The goal of the project was to familiarize myself with Javascript API and to develop a fun application to interact with.</p>>
+    </div>
     </div>
   </div>
 </div>
